@@ -1,0 +1,134 @@
+.header {
+  background-color: white !important;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: none !important;
+}
+.pages {
+  color: black !important;
+}
+.logo {
+  width: 160px;
+}
+.logo:hover {
+  transition: 0.5s;
+  font-size: 30px;
+}
+.headerUl {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 580px;
+}
+.toolbar {
+  display: flex !important;
+  justify-content: space-between !important;
+  padding: 0;
+}
+.headerLi {
+  color: black;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: Montserrat;
+  text-decoration: none;
+  cursor: pointer;
+}
+.headerLi:hover {
+  transition: 0.6s;
+  color: #31b787;
+}
+.container {
+  padding: 0 7.55% !important;
+}
+.burgerMenu {
+  width: 50px !important;
+}
+.modal_content {
+  display: flex !important;
+  display: block !important;
+  justify-content: center !important;
+  margin: 0 auto;
+  margin-bottom: 5%;
+  align-items: center !important;
+  width: 550px !important;
+  border: none !important;
+}
+.navbarModal {
+  border: solid 2px black !important;
+}
+.navbarBox {
+  width: 400px !important;
+}
+.modalTitle {
+  margin: 0 6px;
+  cursor: pointer;
+}
+.modalIcon {
+  margin-bottom: 2px;
+  margin-right: 6px;
+}
+
+@media all and (max-width: 1100px) {
+  .headerLi {
+    font-size: 18px;
+  }
+  .headerUl {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+@media all and (max-width: 899px) {
+  .headerUl {
+    display: none;
+  }
+  .toolbar {
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 1024px) {
+  .modal_content {
+    display: flex !important;
+    display: block !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 500px !important;
+  }
+}
+@media (max-width: 570px) {
+  .modal_content {
+    width: 320px !important;
+  }
+  .navbarBox {
+    width: 350px !important;
+  }
+}
+@media (max-width: 510px) {
+  .navbarBox {
+    width: 300px !important;
+  }
+}
+@media (max-width: 375px) {
+  .modal_content {
+    width: 260px !important;
+  }
+  .navbarBox {
+    width: 270px !important;
+  }
+}
+@media (max-width: 300px) {
+  .modal_content {
+    width: 250px !important;
+  }
+  .navbarBox {
+    width: 255px !important;
+  }
+}
